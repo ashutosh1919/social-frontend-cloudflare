@@ -1,0 +1,133 @@
+
+.profile__img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  float: left;
+}
+
+
+.header {
+  padding: 10px;
+  height: 39px;
+  border-bottom: 1px solid #efefef;
+}
+
+.left {
+  margin-top: 0px;
+  margin: auto;
+}
+
+.user__name {
+  text-align: center;
+  vertical-align: center;
+  line-height: 40px;
+  float: left;
+  padding-left: 10px;
+  /* font */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.mediaPhoto {
+  width: 616px;
+}
+
+.App {
+  width: 616px;
+  height: 1000px;
+  margin-top: 2%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #efefef;
+  margin-bottom: 2%;
+}
+
+/* Actions Bar */
+
+i { 
+  font-size: 24px;
+  padding: 8px;
+}
+
+.like {
+  float: left;
+}
+
+.comment {
+  float: left;
+}
+
+.share {
+  float: left;
+}
+
+/* container */
+
+.container{
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 100%;
+}
+
+/* likes */
+
+.likes {
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  clear: both;
+  display: block;
+}
+
+/* caption */
+
+.cap-username {
+  padding-left: 8px;
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-right: 4px;
+}
+
+.cap-text {
+  float: left;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.posted {
+  clear: both;
+  display: block;
+  padding-left: 8px;
+  padding-top: 5px;
+  font-size: 10px;
+  color: grey;
+  font-weight: 200;
+  margin-bottom: 8px;
+}
+
+.submit__comment {
+  margin: 8px;
+  border-top: 1px solid #efefef;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 56px;
+}
+
+.comment-textarea{
+  position: relative;
+  width: 100%;
+  background: 0 0;
+  border: 0;
+  color: #262626;
+  font-size: inherit;
+  height: 18px;
+  outline: 0;
+  padding-top: 20px;
+  resize: none;
+}
